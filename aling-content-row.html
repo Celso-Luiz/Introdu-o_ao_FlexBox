@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundametos Aling Content</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background-color: orangered;
+            padding: 0;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .flex-space-around{
+            align-content: space-around;
+        }
+        .flex-space-between{
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Aling content stretch</h1>
+    <div class="container stretch">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+    <h1>Aling content center</h1>
+    <div class="container center">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+    <h1>Aling content flex-start</h1>
+    <div class="container flex-start">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+    <h1>Aling content flex-end</h1>
+    <div class="container flex-end">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+    <h1>Aling content flex-space-around</h1>
+    <div class="container flex-space-around">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+    <h1>Aling content flex-space-between</h1>
+    <div class="container flex-space-between">
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod </div>
+        <div class="item">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum e</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed</div>
+        <div class="item">Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempo</div>
+        <div class="item"> Ut enim ad minim veniam, quis nostrum exercita</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipisci elit.</div>
+    </div>
+</body>
+</html>

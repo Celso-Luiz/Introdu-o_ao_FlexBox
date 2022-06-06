@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de aling items</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch;
+        }
+        .flex_start{
+            align-items: flex-start;
+        }
+        .flex_end{
+            align-items: flex-end;
+        }
+        .flex_baseline{
+            align-items: baseline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aling center</h1>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">mais um item 3</div>
+        <div class="item">outro item 4</div>
+    </section>
+    <h1>Aling stretch</h1>
+    <section class="container stretch">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">mais um item, muito mais de um item, muito mesmo 3</div>
+        <div class="item">outro item 4</div>
+    </section>
+    <h1>Aling flex start</h1>
+    <section class="container flex_start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">mais um item 3</div>
+        <div class="item">outro item 4</div>
+    </section>
+    <h1>Aling flex end</h1>
+    <section class="container flex_end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">mais um item 3</div>
+        <div class="item">outro item 4</div>
+    </section>
+    <h1>Aling base line</h1>
+    <section class="container flex_baseline">
+        <div class="item"><br><br><br><br>1</div>
+        <div class="item">item 2</div>
+        <div class="item">mais um item 3</div>
+        <div class="item">outro item 4</div>
+    </section>
+</body>
+</html>
